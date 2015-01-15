@@ -1,0 +1,323 @@
+
+    body {
+
+        margin: 0;
+
+        padding: 0;
+
+        background-color: #FFEBEE;
+
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    a {
+
+        text-decoration: none;
+
+        color: black;
+
+    }
+
+    .header {
+
+        width: 100%;
+
+        height: auto;
+
+        background-color: #F44336;
+
+        padding: 5px 0;
+
+        margin: 0;
+
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.8);
+
+    }
+
+    .kkyllogo {
+
+        display: inline-block;
+
+        margin-left: 20px;
+
+    }
+
+    .location {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 0 40px;
+
+        font-size: 2em;
+
+        color: #fff;
+
+        display: inline-block;
+
+    }
+
+    .navbar {
+
+        padding: 0;
+
+        width: 100%;
+
+    }
+    
+    .navbar ul {
+
+        display: inline;
+
+        padding: 0;
+
+    }
+
+    .navbar li {
+
+        display: inline;
+
+        list-style: none;
+
+        padding: 0 15px;
+
+    }
+
+    .navbar a {
+
+        color: #fff;
+
+        padding: 0 10px;
+
+    }
+
+    .navbar a:hover {
+
+        color: #000;
+
+    }
+
+    #cities:hover > ul {
+
+        visibility: visible;
+
+    }
+
+    .level2 {
+
+        position: absolute;
+
+        top: 65px;
+
+        left: 115px;
+
+        background-color: #EF5350;
+
+        list-style: none;
+
+        padding: 0;
+
+        visibility: hidden;
+        
+        border-bottom-right-radius: 5px;
+        
+        border-bottom-left-radius: 5px;
+        
+        z-index: 100;
+
+    }
+
+    .level2 li {
+        
+        padding:0;
+
+        display: block;
+
+    }
+
+    .maincontent {
+
+        width: 90%;
+
+        max-width: 800px;
+
+        margin: 10px auto;
+
+    }
+
+    #japan_map {
+
+        width: 100%;
+
+        padding: 0;
+
+        margin: 10px 0;
+
+    }
+
+    .city_img {
+
+        position: relative;
+
+        top: -20px;
+
+        width: 100%;
+
+        height: 300px;
+
+        margin: 0;
+
+        padding: 0;
+
+        background-size: 100% 300px;
+
+        text-shadow: 2px 2px #000;
+
+        opacity: 0.8;
+
+    }
+
+    .city_text {
+
+        color: #fff;
+
+        position: relative;
+
+        top: 250px;
+
+        width: 90%;
+
+        max-width: 800px;
+
+        margin: 0 auto;
+
+    }
+
+    .infocot {
+
+        width: 100%;
+
+    }
+
+    .preview_img {
+
+        width: 70%;
+
+        margin: 0 15%;
+
+        box-shadow: 2px 2px 5px 0 #5d5d5d;
+
+    }
+
+    .site_list {
+
+        width: 70%;
+
+        margin: 0 15%;
+
+    }
+
+    .curtain {
+
+        background-color: rgba(0, 0, 0, 0.8);
+
+        position: fixed;
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+    }
+
+    .extrainfocot {
+
+        position: fixed;
+
+        left: 10%;
+
+        top: 10%;
+
+        width: 80%;
+
+        height: 500px;
+
+        background-color: pink;
+        
+        border-radius: 5px;
+
+    }
+
+    .closebutton {
+
+        position: absolute;
+
+        top: 10px;
+
+        right: 10px;
+
+        width: 25px;
+
+        height: 25px;
+
+        border-radius: 50%;
+
+        background-color: #fff;
+
+        color: #F44336;
+
+        text-align: center;
+
+    }
+
+    .closebutton:hover{
+        opacity: 0.75;
+        color:#000;
+    }
+
+    #tokyo_map {
+
+        width: 100%;
+
+        height: 500px;
+
+        margin: 20px auto;
+
+    }
+
+    #hakone_map {
+
+        width: 100%;
+
+        height: 500px;
+
+        margin: 20px auto;
+
+    }
+
+    .markerinfo {
+
+        width: 300px;
+
+        height: 50px;
+
+    }
+
+    .markerinfo a {
+
+        color: #F44336;
+
+    }
+
+    .destinfo{
+        width: 70%;
+        position: fixed;
+        top: 15%;
+        left: 15%;
+        z-index:500;
+    }

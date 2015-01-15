@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>kkyl Tokyo Blog</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='main.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="kkyllogo">
+            <img src="KKYLTravelLogo.png" width="100" />
+        </div>
+        <div class="location">Tokyo</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Japan</a>
+                </li>
+                <li id="cities"><a style="cursor:pointer">Cities</a>
+                    <ul class="level2">
+                        <li><a href="tokyo.html">Tokyo</a>
+                        </li>
+                        <li><a href="#">Osaka</a>
+                        </li>
+                        <li><a href="#">Kyoto</a>
+                        </li>
+                        <li><a href="hakone.html">Hakone</a>
+                        </li>
+                        <li><a href="#">Hiroshima</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Food</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="city_img" style="background-image:url(images/tokyo.JPG);">
+        <div class="city_text">
+            <h1>Kenny Lam's Tokyo Travel Blog</h1>
+        </div>
+    </div>
+    <div class="maincontent">
+        <div class="infocot" id="tokyohome">
+            <p>Tokyo is filled with Historic sites, shopping districts and modern architecture.</p>
+            <h2>Tourist Attractions I've visited</h2>
+            <img class="preview_img" src="images/skytree.JPG" />
+            <div class="site_list">
+                <ul>
+                    <li id="previewlink1"><a href="#">Tokyo Skytree - 東京スカイツリー</a>
+                    </li>
+                    <li id="previewlink2"><a href="#">Tsukiji Fish Market - 築地市場</a>
+                    </li>
+                    <li id="previewlink3"><a href="#">Tokyo DisneyLand - 東京ディズニーランド</a>
+                    </li>
+                    <li id="previewlink4"><a href="#">Sensō-ji - 浅草寺</a>
+                    </li>
+                    <li id="previewlink5"><a href="#">Ueno Park - 上野公園</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="destinfo" id="destinfo1" style="display:none">
+            <h2>Tokyo Skytree - 東京スカイツリー</h2>
+            <p>gdshajkgsdaklfnsdklfjklsdfklsdfsdjfklj</p>
+        </div>
+        <div class="destinfo" id="destinfo2" style="display:none">
+            <h2>Tsukiji Fish Market - 築地市場</h2>
+            <p>gdshajkgsdaklfnsdklfjklsdfklsdfsdjfklj</p>
+        </div>
+        <div class="destinfo" id="destinfo3" style="display:none">
+            <h2>Tokyo DisneyLand - 東京ディズニーランド</h2>
+            <p>gdshajkgsdaklfnsdklfjklsdfklsdfsdjfklj</p>
+        </div>
+        <div class="destinfo" id="destinfo4" style="display:none">
+            <h2>Sensō-ji - 浅草寺</h2>
+            <p>gdshajkgsdaklfnsdklfjklsdfklsdfsdjfklj</p>
+        </div>
+        <div class="destinfo" id="destinfo5" style="display:none">
+            <h2>Ueno Park - 上野公園</h2>
+            <p>gdshajkgsdaklfnsdklfjklsdfklsdfsdjfklj</p>
+
+        </div>
+        <br>
+        <h2>Tokyo Map</h2>
+        <div id="tokyo_map"></div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <script src="tokyo.js"></script>
+</body>
+
+</html>
