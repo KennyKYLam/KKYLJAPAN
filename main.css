@@ -9,13 +9,15 @@
 
         font-family: 'Roboto', sans-serif;
 
+        color: #363636;
+
     }
 
     a {
 
         text-decoration: none;
 
-        color: black;
+        color: #363636;
 
     }
 
@@ -23,7 +25,7 @@
 
         width: 100%;
 
-        height: auto;
+        height: 50px;
 
         background-color: #F44336;
 
@@ -45,7 +47,7 @@
 
     .location {
 
-        width: auto;
+        width: 150px;
 
         height: auto;
 
@@ -63,10 +65,12 @@
 
         padding: 0;
 
-        width: 100%;
+        width: 50%;
+
+        display: inline;
 
     }
-    
+
     .navbar ul {
 
         display: inline;
@@ -109,9 +113,9 @@
 
         position: absolute;
 
-        top: 60px;
+        top: 37px;
 
-        left: 115px;
+        left: 472px;
 
         background-color: #EF5350;
 
@@ -120,18 +124,18 @@
         padding: 0;
 
         visibility: hidden;
-        
+
         border-bottom-right-radius: 5px;
-        
+
         border-bottom-left-radius: 5px;
-        
+
         z-index: 100;
 
     }
 
     .level2 li {
-        
-        padding:0;
+
+        padding: 0;
 
         display: block;
 
@@ -139,9 +143,9 @@
 
     .maincontent {
 
-        width: 90%;
+        width: 100%;
 
-        max-width: 800px;
+        max-width: 1000px;
 
         margin: 10px auto;
 
@@ -171,7 +175,7 @@
 
         padding: 0;
 
-        background-size: 100% 200px;
+        background-size: 100% 300px;
 
         text-shadow: 2px 2px #000;
 
@@ -203,19 +207,48 @@
 
     .preview_img {
 
-        width: 70%;
+        width: 90%;
 
-        margin: 0 15%;
+        margin: 20px 5% 0 5%;
 
-        box-shadow: 2px 2px 5px 0 #5d5d5d;
+        //box-shadow: 2px 2px 5px 0 #5d5d5d;
+
 
     }
 
     .site_list {
 
-        width: 70%;
+        width: 90%;
 
-        margin: 0 15%;
+        margin: 20px 5% 0 5%;
+
+        padding: 0px;
+
+    }
+
+    .site_list ul {
+
+        list-style: none;
+
+        padding: 0;
+
+    }
+
+    .site_list li {
+
+        border: 1px solid #FFEBEE;
+
+        background-color: #F44336;
+
+        list-style: none;
+
+        padding: 5px;
+
+    }
+
+    .site_list li:hover {
+
+        background-color: #aaa;
 
     }
 
@@ -248,7 +281,7 @@
         height: 500px;
 
         background-color: pink;
-        
+
         border-radius: 5px;
 
     }
@@ -275,28 +308,39 @@
 
     }
 
-    .closebutton:hover{
+    .closebutton:hover {
+
         opacity: 0.75;
-        color:#000;
+
+        color: #000;
+
     }
 
     #tokyo_map {
 
-        width: 100%;
+        width: 45%;
 
-        height: 500px;
+        height: 490px;
 
-        margin: 20px auto;
+        margin: 0;
+
+        padding: 5px;
+
+        display: inline-block;
 
     }
 
     #hakone_map {
 
-        width: 100%;
+        width: 45%;
 
-        height: 500px;
+        height: 490px;
 
-        margin: 20px auto;
+        margin: 0;
+
+        padding: 5px;
+
+        display: inline-block;
 
     }
 
@@ -314,10 +358,16 @@
 
     }
 
-    .destinfo{
+    .destinfo {
+
         width: 70%;
+
         position: fixed;
+
         top: 15%;
+
         left: 15%;
-        z-index:500;
+
+        z-index: 500;
+
     }
