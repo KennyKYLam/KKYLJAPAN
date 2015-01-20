@@ -42,8 +42,6 @@
         $(".site_list li").hover(
             function () {
                 var previewlink = $(this).attr("id");
-                $(".site_list li a").css('color','black');
-                $('#'+ previewlink +' a').css('color','#F44336');
                 console.log(previewlink);
                 var previewimgnum = previewlink.replace("previewlink", "previewimgsrc");
                 console.log(previewimgnum);
